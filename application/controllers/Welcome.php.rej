@@ -1,0 +1,9 @@
+diff a/application/controllers/Welcome.php b/application/controllers/Welcome.php	(rejected hunks)
+@@ -1,6 +1,6 @@
+ <?php
+ defined('BASEPATH') OR exit('No direct script access allowed');
+-
++/** @property CI_Loader $load */
+ class Welcome extends CI_Controller {
+ 
+ 	/**
